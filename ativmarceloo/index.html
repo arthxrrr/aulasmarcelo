@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados dos clientes</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <h1>Clientes cadastrados</h1>
+    <table>
+        <tr>
+        <th><b>Cliente</b></th>
+        <th><b>Idade</b></th>
+        <th><b>Cidade</b></th>
+        <th><b>Estado</b></th>
+        <th><b>E-mail</b></th>
+        </tr>    
+        <tr>
+            <td>Ana Regina</td>
+            <td>29</td>
+            <td>Curitiba</td>
+            <td>Paraná</td>
+            <td>ana@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Fernanda Silva</td>
+            <td>42</td>
+            <td>Joinville</td>
+            <td><b>Santa Catarina</b></td>
+            <td>fernanda@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Rodrigo Ferreira</td>
+            <td>70</td>
+            <td>Curitiba</td>
+            <td><b>Paraná</b></td>
+            <td>rodrigo@gmail.com</td>
+        </tr>
+    
+    </table>
+    <fieldset>
+    <legend>Cadastrar novo cliente</legend>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome">
+    <br>
+    <label for="endereço">Idade:</label>
+    <input type="text" name="Idade">
+    <br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" name="cidade"> 
+    <br>
+    <label for="estado">Estado</label>
+    <select name="estado" id="estados">
+        <option value="Parana">Paraná</option>
+        <option value="Minas Gerais">Minas Gerais</option>
+        <option value="Bahia">Bahia</option>
+        <option value="Santa Catarina">Santa Catarina</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Rio de Janeiro">Rio de Janeiro</option>
+        <option value="Acre">Acre</option>
+        <option value="Ceará">Ceará</option>
+        <option value="Pará">Pará</option>
+        <option value="Parana">Parana</option>
+        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+    </select>    
+    <br>
+    <label for="cidade">E-mail:</label>
+    <input type="text" name="email"> 
+    <br>
+    <button id="cancelar">Cancelar</button>
+    <button id="salvar">Salvar</button>
+    </fieldset>
+  
+</body>
+</html>
